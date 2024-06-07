@@ -46,6 +46,7 @@ public class MenuTest extends BaseTest {
 	public void tc03_menutest3() {
 		productsPage.addToCart("Sauce Labs Fleece Jacket");
 		productsPage.goToCart();
+		yourCartPage.resetAppState();
 		yourCartPage.backMenu();
 		productsPage.logout();
 
