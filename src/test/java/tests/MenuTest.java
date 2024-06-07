@@ -36,6 +36,7 @@ public class MenuTest extends BaseTest {
 		productsPage.resetAppState();
 		productsPage.addToCart("Sauce Labs Backpack");
 		productsPage.resetAppState();
+		productsPage.backMenu();
 
 	}
 
